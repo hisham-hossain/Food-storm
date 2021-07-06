@@ -1,6 +1,4 @@
-html{
-    height: 100%;
-}
+
 body{
     font-family: 'Noto Serif', serif;
     margin: 0%;
@@ -22,41 +20,27 @@ margin-left: 50px;
 .button1{
     text-decoration: none;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 24px;
     background-image: linear-gradient(orangered, orange);
     border-radius: 50px;
     font-size: 16px;
     margin-left: 50px;
    }
-.topbanner{
-    background-image: url(images/7.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+
    
-}
 .section1box{
     width: 50%;
-    margin: 50px;
-    padding-left: 5%;
+    margin: 70px;
+    padding-left: 5% 20%;
     color: gray;
     }
 .section1box img{
-    width: 80%;
+    width: 90%;
 }
 .flexible-container {
     display: flex;
     }
-.follower-bar{
-    margin: 5% 30% ;
-    border-radius: 10px;
- text-align: center;
- background-image: linear-gradient(rgba(255, 96, 79, 0.726), pink);
-    box-shadow: 2px 2px 10px gray;
-}
-.followerbar-items{
-    padding: 50px;
-    font-size: 20px;
-}
+
 .midbanner{
     background-image: url(images/section2cover.jpg);
     background-repeat: no-repeat;
@@ -83,7 +67,6 @@ margin-left: 50px;
     width:60%;
     margin-top: 40%;
     padding-bottom: 0%;
-    
 }
 .button2{
     text-decoration: none;
@@ -115,6 +98,18 @@ padding-top: 0%;
     
 .title{
     text-align: center;
+}
+
+.follower-bar{
+    margin: 5% 30% ;
+    border-radius: 10px;
+ text-align: center;
+    box-shadow: 4px 4px 16px gray;
+    display: flex;
+}
+.followerbar-items{
+    padding: 50px;
+    font-size: 20px;
 }
 footer{
     text-align: center;
